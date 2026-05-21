@@ -1,0 +1,71 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$ldlFy1FgVHNfjEaKvVuhvo$gl22H4Ho9V7k5n+QMaUReMcTO0H+wbi8z06TD6josBk=",
+        "last_login": "2026-05-20T17:54:31.668Z",
+        "is_superuser": true,
+        "username": "suha",
+        "first_name": "",
+        "last_name": "",
+        "email": "suha20023@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-05-20T16:12:44.674Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$I3vyXOMY1BcktebPVNdjLw$JPypcGYys02bq0J1SLdOH7BUV85O7YpJxykX3ggZdEk=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "Ahmad",
+        "first_name": "",
+        "last_name": "",
+        "email": "Ahmad@example.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-05-20T17:09:22.503Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$R4TWFCu4VpMvGhDr3YaAOA$RED8is2qvk490Smj3cIK7yv6gYMNuMVk/TWd2V0xKe8=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "Wedad",
+        "first_name": "",
+        "last_name": "",
+        "email": "Wedad@example.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-05-20T17:10:13.461Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "catalog.book",
+    "pk": 2,
+    "fields": {
+        "title": "Django for Beginners",
+        "author": "suha",
+        "description": "Learn Django programming from scratch."
+    }
+},
+{
+    "model": "catalog.book",
+    "pk": 3,
+    "fields": {
+        "title": "Python for Beginners",
+        "author": "suha",
+        "description": "Learn Python programming from scratch."
+    }
+}
+]
