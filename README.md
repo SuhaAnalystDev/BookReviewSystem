@@ -40,7 +40,6 @@ You Can Check the data.json File For All the Data Testing.
 This project utilizes Simple JWT (JSON Web Token) for secure authentication and session management.
 Mechanism: Users authenticate via their credentials to obtain an Access Token and a Refresh Token.
 Usage: For protected endpoints, the Access Token must be included in the HTTP request header as a Bearer Token:
-
-## Plaintext
+# Plaintext
 Authorization: Bearer <your_access_token>
 
