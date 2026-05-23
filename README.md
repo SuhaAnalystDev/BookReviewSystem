@@ -37,6 +37,7 @@ This file has a Postman Collection [Download Postman Collection](./Django.postma
 You Can Check the data.json File For All the Data Testing Or Check Folder Test_images.
 
 ## Description of Authentication Mechanism used :
+```
 This project utilizes Simple JWT (JSON Web Token) for secure authentication and session management.
 **Mechanism:** Users authenticate via their credentials to obtain an Access Token and a Refresh Token.
 --
