@@ -34,13 +34,12 @@ class ChangePasswordView(generics.GenericAPIView):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 class BookListCreateView(generics.ListCreateAPIView):
-    queryset = Review.objects.all()
-    serializer_class = ReviewSerializer
+    queryset = Book.objects.all()
+    serializer_class = BookSerializer
     permission_classes = [permissions.IsAuthenticated]
 
     def perform_create(self, serializer):
-        book = get_object_or_404(Book, id=self.kwargs['book_id'])
-        serializer.save(user=self.request.user, book=book)
+        serializer.save()
 
 class BookDetailView(generics.RetrieveUpdateDestroyAPIView):
     queryset = Book.objects.all()
