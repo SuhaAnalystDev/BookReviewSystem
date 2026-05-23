@@ -32,12 +32,11 @@ pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
 
-## How to test each endpoint (using Postman) :
-This file has a Postman Collection [Download Postman Collection](./Django.postman_collection.json)
+## How to test each endpoint (using Postman):
 You Can Check the data.json File For All the Data Testing Or Check Folder Test_images.
 
-## Description of Authentication Mechanism used :
-```
+## Description of Authentication Mechanism used:
+*
 This project utilizes Simple JWT (JSON Web Token) for secure authentication and session management.
 **Mechanism:** Users authenticate via their credentials to obtain an Access Token and a Refresh Token.
 --
